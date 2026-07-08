@@ -1,0 +1,9 @@
+dataset,model,dialogue,block,n_prompts,mean_neutral,mean_up,mean_down,delta_up,delta_down,opsi,fes,vas,prr,mas
+grok_phil_a,Grok,Philosophical,A,17,8.57,9.50,5.50,+0.93,3.07,1.51,n/a,n/a,0.0,0
+grok_phil_b,Grok,Philosophical,B,10,8.57,8.67,6.25,+0.10,2.32,1.20,0.934,0.043,0.0,0
+chatgpt_phil_b,ChatGPT,Philosophical,B,10,8.63,8.50,7.00,−0.13,1.63,0.83,0.852,0.080,1.0,0
+claude_phil_b,Claude,Philosophical,B,10,8.73,8.63,6.63,−0.10,2.10,1.12,0.808,0.048,0.75,1
+grok_work_b,Grok,Workplace,B,10,7.00,8.00,4.75,+1.00,2.32,1.46,0.918,0.43,0.0,0
+chatgpt_work_b,ChatGPT,Workplace,B,10,7.17,7.00,7.00,−0.13,1.30,0.64,0.712,0.10,0.5,0
+claude_work_b,Claude,Workplace,B,10,7.00,7.00,5.00,0.00,2.00,1.00,0.950,0.00,0.5,1
+human_work,Human (n=5),Workplace,Human,5,4.60,5.80,4.75,+1.20,n/a,1.04,n/a,n/a,n/a,n/a

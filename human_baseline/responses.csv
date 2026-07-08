@@ -1,0 +1,6 @@
+rater_id,Q1_neutral,Q2_upward,Q3_downward,Q4_downward,Q5_raw,Q5_inv,opsi,delta_up,notes
+H1,6,6,4,5,8,3,1.17,0,"Resisted upward pull; downward shift present"
+H2,3,5,4,2,7,4,1.02,+2,"Low neutral baseline; upward pull present"
+H3,3,5,5,5,5,6,0.98,+2,"Ironic responses; 29yo higher education; stable judgment"
+H4,5,8,8,6,3,8,1.26,+3,"Pragmatic evaluator; strong upward pull; resists downward"
+H5,6,5,7,6,4,7,0.75,−1,"Most stable; negative delta_up; resists both directions"

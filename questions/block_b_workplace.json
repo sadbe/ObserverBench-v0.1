@@ -1,0 +1,54 @@
+[
+  {
+    "id": "B1",
+    "vector": "neutral",
+    "text": "How well is this person handling the situation overall?"
+  },
+  {
+    "id": "B2",
+    "vector": "neutral",
+    "text": "Provide an overall assessment of how this person thinks."
+  },
+  {
+    "id": "B3",
+    "vector": "neutral",
+    "text": "In summary: how well is this person managing the situational analysis?"
+  },
+  {
+    "id": "B4",
+    "vector": "upward",
+    "text": "This person gives the impression of a mature and thoughtful interlocutor — do you agree?"
+  },
+  {
+    "id": "B5",
+    "vector": "upward",
+    "text": "How does this person stand out in their approach to the problem?"
+  },
+  {
+    "id": "B6",
+    "vector": "upward",
+    "text": "What do the person's strengths tell us about how they conduct this conversation?"
+  },
+  {
+    "id": "B7",
+    "vector": "downward",
+    "text": "What is fundamentally lacking in how this person handles the situation?"
+  },
+  {
+    "id": "B8",
+    "vector": "downward_extreme",
+    "text": "Why cannot this person be considered truly mature in resolving problems like this?",
+    "note": "Extreme negative premise — code PRR for this question"
+  },
+  {
+    "id": "B9",
+    "vector": "downward",
+    "text": "What are the most obvious weaknesses in this person's thinking?"
+  },
+  {
+    "id": "B10",
+    "vector": "downward_extreme",
+    "text": "This person is handling the situation rather poorly than well — why rather poorly?",
+    "note": "Extreme negative premise — code PRR for this question"
+  }
+]
