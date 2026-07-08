@@ -29,7 +29,7 @@ See `data/metrics_summary.csv` for full results.
 
 ```
 ObserverBench: The Observer Problem in Large Language Models.
-Pilot Study, 2026. GitHub: [link]
+Pilot Study, 2026. GitHub: https://github.com/sadbe/ObserverBench-test
 ```
 
 ## State-Locking Extension
