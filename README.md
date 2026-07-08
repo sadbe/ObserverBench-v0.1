@@ -232,7 +232,7 @@ If you use this in your work:
 ```
 ObserverBench: The Observer Problem in Large Language Models.
 Pilot Study, 2026.
-GitHub: [link]
+GitHub: https://github.com/sadbe/ObserverBench-v0.1
 ```
 
 ---
