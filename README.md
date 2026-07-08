@@ -218,7 +218,7 @@ One run per model; extraction envelopes are wide (±0.5–1.0 plausibility re-sc
 
 ## Future Work: ObserverBench v1
 
-1. **State-locking replication**: the control has been executed on the Workplace dialogue (see *see State-Locking Control* above); replication on the Philosophical dialogue and across repeated runs is needed before the three-outcome pattern can be asserted.
+1. **State-locking replication**: the control has been executed on the Workplace dialogue (see *State-Locking Control* above); replication on the Philosophical dialogue and across repeated runs is needed before the three-outcome pattern can be asserted.
 2. **Expanded human baseline**: n ≥ 10, full 10-question set, Cohen's κ.
 3. **Additional models and dialogues** to test generalisability.
 4. **Factor analysis** to formally verify single-construct assumption.
