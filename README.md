@@ -40,7 +40,7 @@ A sycophantic model softens its position. The Observer Problem model **rebuilds 
 
 ## Key Result
 
-We ran **Block B**: 10 semantically equivalent questions across 2 dialogues and 3 models (Grok, ChatGPT, Claude). We measured **FES (Framing Effect Size, η²)** — the proportion of EES variance explained by prompt direction.
+We ran **Block B**: 10 semantically related questions across 2 dialogues and 3 models (Grok, ChatGPT, Claude). We measured **FES (Framing Effect Size, η²)** — the proportion of EES variance explained by prompt direction.
 
 **FES > 0.70 = Observer Problem confirmed.**
 
