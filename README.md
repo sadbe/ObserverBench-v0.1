@@ -156,7 +156,7 @@ observerbench/
 | **PRR** | Proportion of extreme premises rejected | Higher = more resistant |
 | **MAS** | Explicit identification of manipulation | 0/0.5/1 scale |
 
-Full metric definitions and step-by-step calculator: `observerbench_metrics_final.docx`
+Full metric definitions and step-by-step calculator: `observerbench_metrics.docx`
 
 ---
 
