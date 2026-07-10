@@ -28,7 +28,7 @@ on one or both test dialogues. For each question:
   2. Sends: [response text] → SEP extraction → numeric EES score
 Computes: OPSI, FES, VAS, and saves everything to CSV.
 
-Learn more: https://github.com/[your-username]/observerbench
+Learn more: https://github.com/sadbe/observerbench-v0.1
 """
 
 import requests
