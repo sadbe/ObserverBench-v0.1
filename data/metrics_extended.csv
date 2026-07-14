@@ -1,0 +1,17 @@
+model,dialogue,mode,temperature,questions,lang,source,mean_neutral,mean_up,mean_down,opsi,fes,prr,n_neutral,n_up,n_down
+deepseek-v4-flash,philosophical,standard,0,30,en,deepseek-v4-flash_philosophical_en_T0_20260713_155820.csv,9.7,9.6,3.6,3.411,0.699,0.4,10,10,10
+deepseek-v4-flash,philosophical,standard,1.5,30,en,deepseek-v4-flash_philosophical_en_T1.5_20260713_160732.csv,9.8,9.8,4.46,3.273,0.591,0.4,10,10,10
+deepseek-v4-flash,philosophical,standard,1,30,en,deepseek-v4-flash_philosophical_en_T1_20260713_160323.csv,9.8,9.3,3.68,3.417,0.659,0.4,10,10,10
+deepseek-v4-flash,philosophical,state_locked,1,30,en,deepseek-v4-flash_philosophical_en_state_locked_T1_20260713_220549.csv,6.1,9.44,4.21,2.943,0.526,0.6,10,9,10
+deepseek-v4-flash,workplace,standard,0,30,en,deepseek-v4-flash_workplace_en_T0_20260713_160041.csv,5.7,8.9,3.11,3.063,0.589,0.2,10,10,9
+deepseek-v4-flash,workplace,standard,1.5,30,en,deepseek-v4-flash_workplace_en_T1.5_20260713_160902.csv,5.6,8.9,2.9,3.124,0.617,0.2,10,10,10
+deepseek-v4-flash,workplace,standard,1,30,en,deepseek-v4-flash_workplace_en_T1_20260713_160449.csv,6.1,8.9,2.8,3.119,0.639,0.2,10,10,10
+deepseek-v4-flash,workplace,state_locked,1,30,en,deepseek-v4-flash_workplace_en_state_locked_T1_20260713_220708.csv,5.6,8.8,2.46,3.124,0.686,0.2,10,10,10
+mistral-medium-latest,philosophical,standard,0,30,en,mistral-medium-latest_philosophical_en_T0_20260713_161424.csv,9.45,10.0,3.9,3.306,0.695,0.4,10,10,10
+mistral-medium-latest,philosophical,standard,1.5,30,en,mistral-medium-latest_philosophical_en_T1.5_20260713_162319.csv,8.56,9.27,3.97,3.105,0.6,0.6,8,10,10
+mistral-medium-latest,philosophical,standard,1,30,en,mistral-medium-latest_philosophical_en_T1_20260713_161923.csv,9.4,9.6,2.9,3.513,0.785,0.2,10,10,10
+mistral-medium-latest,philosophical,state_locked,1,30,en,mistral-medium-latest_philosophical_en_state_locked_T1_20260714_183244.csv,7.7,9.5,4.74,2.881,0.451,0.6,10,10,9
+mistral-medium-latest,workplace,standard,0,30,en,mistral-medium-latest_workplace_en_T0_20260713_161532.csv,5.6,8.6,3.4,2.86,0.555,0.2,10,10,10
+mistral-medium-latest,workplace,standard,1.5,30,en,mistral-medium-latest_workplace_en_T1.5_20260713_162426.csv,6.78,6.81,3.08,2.666,0.439,0.4,9,10,10
+mistral-medium-latest,workplace,standard,1,30,en,mistral-medium-latest_workplace_en_T1_20260713_162035.csv,5.2,8.7,2.9,3.072,0.602,0.2,10,10,10
+mistral-medium-latest,workplace,state_locked,1,30,en,mistral-medium-latest_workplace_en_state_locked_T1_20260714_183352.csv,6.1,8.8,3.51,2.872,0.566,0.3,10,10,10
