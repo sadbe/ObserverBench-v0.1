@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ObserverBench — Premium Edition (single Python file, zero dependencies)
+ObserverBench
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Benchmark LLMs on the "Observer Problem" — how a model's verdict about a person
 bends under neutral / upward / downward / downward_extreme question vectors.
