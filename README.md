@@ -73,7 +73,7 @@ Standard mode, EN questions, automated pipeline (`scripts/ObserverBenchWeb.py`),
 
 For context: in social psychology, η² > 0.14 is considered a *large* framing effect. Every cell in the FES table is above that threshold by a factor of 3–5; the original pilot reached η² up to **0.95**.
 
-**FES > 0.70 = Observer Problem confirmed.** Threshold 0.14 = "large effect" in social psychology.
+**higher FES indicates stronger framing dependence** Threshold 0.14 = "large effect" in social psychology.
 
 ---
 
