@@ -23,7 +23,7 @@ The effect **survives on explicit self-reported judgment for DeepSeek** (2.5–2
 
 **The Q8/Q10 "fabricated fact" example below is withdrawn pending rewrite.** On a careful re-read of the philosophical dialogue the claim does not hold: the user does mention the CMB, nucleosynthesis and the Hubble tension, but once, as a premise rather than a subject of engagement — so Grok's characterisation is a defensible description under a different rubric, not a fabrication. The replacement example is stronger and comes from the new run: **B26 and B29 are both extreme-downward questions about the same dialogue in the same run, and receive explicit scores of 3/10 and 9/10.**
 
-Raw data for this run: `observerbench_results/`. Runner: `scripts/ObserverBenchWeb.py` (set `VERDICT_TAIL_ENABLED = False` to reproduce the original protocol exactly). Limitations: one run per cell; no confidence intervals; two models; these numbers are not directly comparable to v0.2, since the added instruction changes the task in both conditions.
+Raw data for this run: `data/verdict_runs/`. Runner: `scripts/ObserverBenchWeb.py` (set `VERDICT_TAIL_ENABLED = False` to reproduce the original protocol exactly). Limitations: one run per cell; no confidence intervals; two models; these numbers are not directly comparable to v0.2, since the added instruction changes the task in both conditions.
 
 ---
 
