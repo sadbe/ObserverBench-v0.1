@@ -1,3 +1,31 @@
+Update — July 2026: explicit-verdict control
+
+Following an external methodological review, the protocol now adds an explicit holistic verdict to every question: each question ends with a fixed instruction to output OVERALL: X/10 regardless of what that question asked the model to focus on. FES is recomputed on that number, in parallel with the original sentiment-based extraction, from the same responses.
+
+Why: downward-framed questions legitimately ask the model to list deficiencies. A sentiment extractor scores deficiency-focused prose as negative — so "the model followed the question's rubric" and "the model has no stable judgment" were being measured as the same thing.
+
+Result (2 models × 2 dialogues, T=1, 30 questions, 100% verdict compliance):
+
+	FES sentiment	FES verdict	verdict spread (up − down)
+DeepSeek — philosophical	0.652	0.637	2.90 pts
+DeepSeek — workplace	0.715	0.699	2.50 pts
+Mistral — philosophical	0.570	0.507	2.00 pts
+Mistral — workplace	0.716	0.407	1.00 pts
+
+The effect survives on explicit self-reported judgment for DeepSeek (2.5–2.9 points on a 10-point scale) but largely dissolves for Mistral on the workplace dialogue: across all five extreme-downward questions the prose calls the person immature while the explicit score stays at exactly 7/10 (sd = 0.00). Part of the previously reported effect was the extractor, not the model, and the proportion is model-dependent.
+
+The FES > 0.70 across all datasets claim below is therefore superseded. On explicit verdicts the range is 0.41–0.70 and model-dependent.
+
+State-locking, by contrast, became cleaner. Measured on explicit verdicts it reduces the framing swing in 4 of 4 cells (e.g. DeepSeek philosophical: 2.90 → 0.10 pts), where the sentiment-based picture in v0.2 had looked inconsistent.
+
+Caveat on η². Where within-group variance approaches zero, η² inflates even when the absolute spread is trivial (Mistral, philosophical, state-locked: FES_verdict = 0.308 but the entire 30-question range is 8.0–9.0). FES is reported alongside group means and should not be read alone.
+
+The Q8/Q10 "fabricated fact" example below is withdrawn pending rewrite. On a careful re-read of the philosophical dialogue the claim does not hold: the user does mention the CMB, nucleosynthesis and the Hubble tension, but once, as a premise rather than a subject of engagement — so Grok's characterisation is a defensible description under a different rubric, not a fabrication. The replacement example is stronger and comes from the new run: B26 and B29 are both extreme-downward questions about the same dialogue in the same run, and receive explicit scores of 3/10 and 9/10.
+
+Raw data for this run: observerbench_results/. Runner: scripts/ObserverBenchWeb.py (set VERDICT_TAIL_ENABLED = False to reproduce the original protocol exactly). Limitations: one run per cell; no confidence intervals; two models; these numbers are not directly comparable to v0.2, since the added instruction changes the task in both conditions.
+
+---
+
 # ObserverBench
 
 **The Observer Problem in Large Language Models: Why AI Can't Evaluate People Even When It Just Read About Them**
