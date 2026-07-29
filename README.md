@@ -4,7 +4,7 @@ Following an external methodological review, the protocol now adds an **explicit
 
 **Why:** downward-framed questions legitimately ask the model to list deficiencies. A sentiment extractor scores deficiency-focused prose as negative — so "the model followed the question's rubric" and "the model has no stable judgment" were being measured as the same thing.
 
-**Result** (2 models × 2 dialogues, T=1, 30 questions, 100% verdict compliance):
+**Result** (Two models, both dialogues, standard and state-locked, 240 calls, 100% compliance):
 
 | | FES sentiment | FES verdict | verdict spread (up − down) |
 |---|---|---|---|
